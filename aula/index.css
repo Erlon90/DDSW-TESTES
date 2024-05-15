@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+section {
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    height: 30px;
+    font-size: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
